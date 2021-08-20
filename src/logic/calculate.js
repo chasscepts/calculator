@@ -1,4 +1,4 @@
-import operate from './operate';
+import operate, { INFINITY_ERROR } from './operate';
 
 /**
  * perform calculation on a calculator data object
@@ -10,7 +10,7 @@ import operate from './operate';
  */
 export default function calculate(data, buttonName) {
   const result = { ...data };
-  if (result.total === 'Infinity' && buttonName !== 'AC') {
+  if (result.total === INFINITY_ERROR && buttonName !== 'AC') {
     return result;
   }
   switch (buttonName) {
