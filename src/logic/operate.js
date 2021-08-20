@@ -1,5 +1,7 @@
 import Big from 'big.js';
 
+export const INFINITY_ERROR = "Infinity [click 'AC' to clear]";
+
 export default function operate(numberOne, numberTwo, operation) {
   switch (operation) {
     case '+':
@@ -9,7 +11,7 @@ export default function operate(numberOne, numberTwo, operation) {
     case 'X':
       return Big(numberOne).times(numberTwo).toString();
     case '÷':
-      if (!numberTwo) return 'Infinity';
+      if (!numberTwo || numberTwo === '0') return INFINITY_ERROR;
       return Big(numberOne).div(numberTwo).toString();
     case '%':
       return Big(numberTwo).div(100).toString();
