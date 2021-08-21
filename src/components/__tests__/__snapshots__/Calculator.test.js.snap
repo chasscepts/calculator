@@ -109,7 +109,9 @@ Array [
           }
         }
       >
-        <span>
+        <span
+          role="log"
+        >
           0
         </span>
       </div>
