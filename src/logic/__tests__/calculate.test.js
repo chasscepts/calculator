@@ -43,7 +43,7 @@ describe('calculate', () => {
   it('correctly handles division by zero', () => {
     expect(calculate({ total: 10, next: 0, operation: '÷' }, '=').total).toBe(INFINITY_ERROR);
   });
-  
+
   it('AC button resets the state', () => {
     expect(calculate({ total: '1', next: '2', operation: 'X' }, 'AC'))
       .toStrictEqual({ total: null, next: null, operation: null });

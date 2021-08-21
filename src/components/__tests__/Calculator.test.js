@@ -1,12 +1,12 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import { shallow, render } from "enzyme";
+import { shallow, render } from 'enzyme';
 import ComponentWrapper from '../test_helpers/ComponentWrapper';
-import CalculatorPage, { Calculator } from '../Calculator';
+import Calculator, { CalculatorApp } from '../Calculator';
 
 it('matches snapshot', () => {
   const tree = renderer
-    .create(<ComponentWrapper component={CalculatorPage} />)
+    .create(<ComponentWrapper component={Calculator} />)
     .toJSON();
   expect(tree).toMatchSnapshot();
 });
@@ -15,11 +15,11 @@ describe('Calculator', () => {
   let wrapper;
 
   beforeAll(() => {
-    wrapper = render(<Calculator />);
+    wrapper = render(<CalculatorApp />);
   });
 
   it('wraps content in a div with .wrap class', () => {
-    const wrap = shallow(<Calculator />)
+    const wrap = shallow(<CalculatorApp />);
     expect(wrap.find('.wrap').length).toEqual(1);
   });
 

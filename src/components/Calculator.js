@@ -15,7 +15,7 @@ const styles = {
   },
 };
 
-export function Calculator() {
+export function CalculatorApp() {
   const [total, setTotal] = useState(null);
   const [next, setNext] = useState(null);
   const [operation, setOperation] = useState(null);
@@ -43,7 +43,7 @@ export default function Page() {
       <AppHeader />
       <div style={styles.content} className="content">
         <p>{p}</p>
-        <Calculator />
+        <CalculatorApp />
       </div>
     </>
   );
