@@ -1,5 +1,5 @@
-import Calculator from './Calculator';
+import Routes from './Routes';
 
 export default function App() {
-  return <Calculator />;
+  return <Routes />;
 }
