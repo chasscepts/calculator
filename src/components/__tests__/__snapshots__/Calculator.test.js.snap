@@ -1,0 +1,574 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+Array [
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "justifyContent": "space-between",
+        "padding": "15px 30px",
+      }
+    }
+  >
+    <h1>
+      Math Magicians
+    </h1>
+    <nav>
+      <ul
+        style={
+          Object {
+            "display": "flex",
+            "listStyle": "none",
+          }
+        }
+      >
+        <li
+          style={
+            Object {
+              "padding": "0 10px",
+            }
+          }
+        >
+          <a
+            href="/"
+            onClick={[Function]}
+          >
+            Home
+          </a>
+        </li>
+        <li
+          style={
+            Object {
+              "borderLeft": "1px solid #ddd",
+              "borderRight": "1px solid #ddd",
+              "padding": "0 10px",
+            }
+          }
+        >
+          <a
+            href="/calculator"
+            onClick={[Function]}
+          >
+            Calculator
+          </a>
+        </li>
+        <li
+          style={
+            Object {
+              "padding": "0 10px",
+            }
+          }
+        >
+          <a
+            href="/quote-of-the-day"
+            onClick={[Function]}
+          >
+            Quote
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>,
+  <div
+    className="content"
+    style={
+      Object {
+        "display": "flex",
+        "paddingBottom": "30px",
+      }
+    }
+  >
+    <p>
+      Now let's do some Math!
+    </p>
+    <div
+      className="wrap"
+      style={
+        Object {
+          "margin": "auto",
+          "width": "700px",
+        }
+      }
+    >
+      <div
+        className="display"
+        style={
+          Object {
+            "backgroundColor": "gray",
+            "color": "#fff",
+            "display": "flex",
+            "flexDirection": "column",
+            "fontSize": "48px",
+            "fontWeight": "bold",
+            "height": "100px",
+            "justifyContent": "center",
+            "padding": "0 10px",
+            "textAlign": "right",
+            "width": "100%",
+          }
+        }
+      >
+        <span
+          role="log"
+        >
+          0
+        </span>
+      </div>
+      <div
+        className="panel"
+      >
+        <div
+          style={
+            Object {
+              "display": "flex",
+              "height": "100px",
+              "width": "100%",
+            }
+          }
+        >
+          <button
+            onClick={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#ddd",
+                "border": "2px solid gray",
+                "color": "#000",
+                "display": "flex",
+                "flex": "0 0 25%",
+                "fontSize": "24px",
+                "fontWeight": "bold",
+                "justifyContent": "center",
+              }
+            }
+            type="button"
+          >
+            <span>
+              AC
+            </span>
+          </button>
+          <button
+            onClick={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#ddd",
+                "border": "2px solid gray",
+                "color": "#000",
+                "display": "flex",
+                "flex": "0 0 25%",
+                "fontSize": "24px",
+                "fontWeight": "bold",
+                "justifyContent": "center",
+              }
+            }
+            type="button"
+          >
+            <span>
+              +/-
+            </span>
+          </button>
+          <button
+            onClick={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#ddd",
+                "border": "2px solid gray",
+                "color": "#000",
+                "display": "flex",
+                "flex": "0 0 25%",
+                "fontSize": "24px",
+                "fontWeight": "bold",
+                "justifyContent": "center",
+              }
+            }
+            type="button"
+          >
+            <span>
+              %
+            </span>
+          </button>
+          <button
+            onClick={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "orange",
+                "border": "2px solid gray",
+                "color": "#000",
+                "display": "flex",
+                "flex": "0 0 25%",
+                "fontSize": "24px",
+                "fontWeight": "bold",
+                "justifyContent": "center",
+              }
+            }
+            type="button"
+          >
+            <span>
+              ÷
+            </span>
+          </button>
+        </div>
+        <div
+          style={
+            Object {
+              "display": "flex",
+              "height": "100px",
+              "width": "100%",
+            }
+          }
+        >
+          <button
+            onClick={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#ddd",
+                "border": "2px solid gray",
+                "color": "#000",
+                "display": "flex",
+                "flex": "0 0 25%",
+                "fontSize": "24px",
+                "fontWeight": "bold",
+                "justifyContent": "center",
+              }
+            }
+            type="button"
+          >
+            <span>
+              7
+            </span>
+          </button>
+          <button
+            onClick={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#ddd",
+                "border": "2px solid gray",
+                "color": "#000",
+                "display": "flex",
+                "flex": "0 0 25%",
+                "fontSize": "24px",
+                "fontWeight": "bold",
+                "justifyContent": "center",
+              }
+            }
+            type="button"
+          >
+            <span>
+              8
+            </span>
+          </button>
+          <button
+            onClick={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#ddd",
+                "border": "2px solid gray",
+                "color": "#000",
+                "display": "flex",
+                "flex": "0 0 25%",
+                "fontSize": "24px",
+                "fontWeight": "bold",
+                "justifyContent": "center",
+              }
+            }
+            type="button"
+          >
+            <span>
+              9
+            </span>
+          </button>
+          <button
+            onClick={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "orange",
+                "border": "2px solid gray",
+                "color": "#000",
+                "display": "flex",
+                "flex": "0 0 25%",
+                "fontSize": "24px",
+                "fontWeight": "bold",
+                "justifyContent": "center",
+              }
+            }
+            type="button"
+          >
+            <span>
+              X
+            </span>
+          </button>
+        </div>
+        <div
+          style={
+            Object {
+              "display": "flex",
+              "height": "100px",
+              "width": "100%",
+            }
+          }
+        >
+          <button
+            onClick={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#ddd",
+                "border": "2px solid gray",
+                "color": "#000",
+                "display": "flex",
+                "flex": "0 0 25%",
+                "fontSize": "24px",
+                "fontWeight": "bold",
+                "justifyContent": "center",
+              }
+            }
+            type="button"
+          >
+            <span>
+              4
+            </span>
+          </button>
+          <button
+            onClick={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#ddd",
+                "border": "2px solid gray",
+                "color": "#000",
+                "display": "flex",
+                "flex": "0 0 25%",
+                "fontSize": "24px",
+                "fontWeight": "bold",
+                "justifyContent": "center",
+              }
+            }
+            type="button"
+          >
+            <span>
+              5
+            </span>
+          </button>
+          <button
+            onClick={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#ddd",
+                "border": "2px solid gray",
+                "color": "#000",
+                "display": "flex",
+                "flex": "0 0 25%",
+                "fontSize": "24px",
+                "fontWeight": "bold",
+                "justifyContent": "center",
+              }
+            }
+            type="button"
+          >
+            <span>
+              6
+            </span>
+          </button>
+          <button
+            onClick={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "orange",
+                "border": "2px solid gray",
+                "color": "#000",
+                "display": "flex",
+                "flex": "0 0 25%",
+                "fontSize": "24px",
+                "fontWeight": "bold",
+                "justifyContent": "center",
+              }
+            }
+            type="button"
+          >
+            <span>
+              +
+            </span>
+          </button>
+        </div>
+        <div
+          style={
+            Object {
+              "display": "flex",
+              "height": "100px",
+              "width": "100%",
+            }
+          }
+        >
+          <button
+            onClick={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#ddd",
+                "border": "2px solid gray",
+                "color": "#000",
+                "display": "flex",
+                "flex": "0 0 25%",
+                "fontSize": "24px",
+                "fontWeight": "bold",
+                "justifyContent": "center",
+              }
+            }
+            type="button"
+          >
+            <span>
+              1
+            </span>
+          </button>
+          <button
+            onClick={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#ddd",
+                "border": "2px solid gray",
+                "color": "#000",
+                "display": "flex",
+                "flex": "0 0 25%",
+                "fontSize": "24px",
+                "fontWeight": "bold",
+                "justifyContent": "center",
+              }
+            }
+            type="button"
+          >
+            <span>
+              2
+            </span>
+          </button>
+          <button
+            onClick={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#ddd",
+                "border": "2px solid gray",
+                "color": "#000",
+                "display": "flex",
+                "flex": "0 0 25%",
+                "fontSize": "24px",
+                "fontWeight": "bold",
+                "justifyContent": "center",
+              }
+            }
+            type="button"
+          >
+            <span>
+              3
+            </span>
+          </button>
+          <button
+            onClick={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "orange",
+                "border": "2px solid gray",
+                "color": "#000",
+                "display": "flex",
+                "flex": "0 0 25%",
+                "fontSize": "24px",
+                "fontWeight": "bold",
+                "justifyContent": "center",
+              }
+            }
+            type="button"
+          >
+            <span>
+              -
+            </span>
+          </button>
+        </div>
+        <div
+          style={
+            Object {
+              "display": "flex",
+              "height": "100px",
+              "width": "100%",
+            }
+          }
+        >
+          <button
+            onClick={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#ddd",
+                "border": "2px solid gray",
+                "color": "#000",
+                "display": "flex",
+                "flex": "0 0 50%",
+                "fontSize": "24px",
+                "fontWeight": "bold",
+                "justifyContent": "center",
+              }
+            }
+            type="button"
+          >
+            <span>
+              0
+            </span>
+          </button>
+          <button
+            onClick={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#ddd",
+                "border": "2px solid gray",
+                "color": "#000",
+                "display": "flex",
+                "flex": "0 0 25%",
+                "fontSize": "24px",
+                "fontWeight": "bold",
+                "justifyContent": "center",
+              }
+            }
+            type="button"
+          >
+            <span>
+              .
+            </span>
+          </button>
+          <button
+            onClick={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "orange",
+                "border": "2px solid gray",
+                "color": "#000",
+                "display": "flex",
+                "flex": "0 0 25%",
+                "fontSize": "24px",
+                "fontWeight": "bold",
+                "justifyContent": "center",
+              }
+            }
+            type="button"
+          >
+            <span>
+              =
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;

@@ -14,7 +14,7 @@ const styles = {
 
 export default function ButtonPanel({ clickHandler }) {
   return (
-    <div>
+    <div className="panel">
       <div style={styles.buttonGroup}>
         <Button name="AC" clickHandler={clickHandler} />
         <Button name="+/-" clickHandler={clickHandler} />
