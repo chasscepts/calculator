@@ -15,7 +15,7 @@ const styles = {
   },
 };
 
-function Calculator() {
+export function Calculator() {
   const [total, setTotal] = useState(null);
   const [next, setNext] = useState(null);
   const [operation, setOperation] = useState(null);
