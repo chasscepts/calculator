@@ -28,7 +28,7 @@ export function Calculator() {
   };
 
   return (
-    <div style={styles.container}>
+    <div style={styles.container} className="wrap">
       <Display result={next || total || '0'} />
       <ButtonPanel clickHandler={handleClick} />
     </div>
