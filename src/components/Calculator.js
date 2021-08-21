@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Display from './Display';
 import ButtonPanel from './ButtonPanel';
 import calculate from '../logic/calculate';
+import AppHeader from './AppHeader';
 
 const styles = {
   container: {
@@ -39,6 +40,7 @@ const p = "Now let's do some Math!";
 export default function Page() {
   return (
     <>
+      <AppHeader />
       <div style={styles.content} className="content">
         <p>{p}</p>
         <Calculator />
