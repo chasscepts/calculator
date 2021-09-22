@@ -15,7 +15,7 @@ const styles = {
   },
 };
 
-function Calculator() {
+export function CalculatorApp() {
   const [total, setTotal] = useState(null);
   const [next, setNext] = useState(null);
   const [operation, setOperation] = useState(null);
@@ -28,7 +28,7 @@ function Calculator() {
   };
 
   return (
-    <div style={styles.container}>
+    <div style={styles.container} className="wrap">
       <Display result={next || total || '0'} />
       <ButtonPanel clickHandler={handleClick} />
     </div>
@@ -43,7 +43,7 @@ export default function Page() {
       <AppHeader />
       <div style={styles.content} className="content">
         <p>{p}</p>
-        <Calculator />
+        <CalculatorApp />
       </div>
     </>
   );

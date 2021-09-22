@@ -17,7 +17,7 @@ const styles = {
 
 export default function Display({ result }) {
   return (
-    <div style={styles}><span>{result}</span></div>
+    <div className="display" style={styles}><span role="log">{result}</span></div>
   );
 }
 
