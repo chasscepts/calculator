@@ -10,7 +10,7 @@
 
 ## Live Demo
 
-[demo](https://mm-calculator.herokuapp.com/)
+[demo](https://mm-calculator.netlify.app/)
 
 ## Getting Started
 
